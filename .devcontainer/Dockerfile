@@ -19,4 +19,4 @@ ENV DEBIAN_FRONTEND=dialog
 
 # For docs
 RUN npm install --global yarn
-RUN pip install pydoc-markdown
+RUN pip install pydoc-markdown flaml[automl] pyautogen[retrievechat]~=0.1.2
